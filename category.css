@@ -17,13 +17,13 @@ a:hover{
 
 .container{
     display: grid;
-    grid-template-rows: 100px 1fr;
+    grid-template-rows: auto 1fr;
     row-gap: 2%;
 }
 
 .container>header{
     display: grid;
-    grid-template-columns: auto 100px 1fr 100px 100px;
+    grid-template-columns: auto auto 1fr auto auto;
     background-color: #12448E;
     color: rgb(255, 255, 255);
 }
@@ -57,7 +57,7 @@ a:hover{
 
 .container>main{
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto auto;
 }
 
 .categoryMain{
@@ -114,3 +114,4 @@ a:hover{
 .categoryMain>img{
     border-radius: 15px;
 }
+
