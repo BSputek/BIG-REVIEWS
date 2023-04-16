@@ -1,0 +1,70 @@
+.descriptions{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 3%;
+    padding-right: 3%;
+    row-gap: 3%;
+}
+
+.plot{
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    transition: all .2s ease-in-out; 
+}
+
+.plot:hover{
+    transform: scale(1.05);
+}
+
+.plot>p{
+    padding: 3%;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.plot>h1{
+    padding: 3%;
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.mainCharacters{
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 4%;
+    justify-content: center;
+    transition: all .2s ease-in-out; 
+}
+
+.mainCharacters:hover{
+    transform: scale(1.05);
+}
+
+.mainCharacters>h1{
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 36px;
+    padding: 1%;
+}
+
+.mainCharacters>ul{
+    margin-left: 45%;
+    padding-top: 10%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mainCharacters>ul>li{
+    padding-bottom: 2%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

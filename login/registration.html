@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+        .login{
+            margin-top: 1%;
+        }
+    </style>
+</head>
+<body>
+    <a href="/index.html">BIG REVIEWS</a>
+    <div class="login">
+        <h1>REGISTRATION</h1>
+        <form action="#">
+            <div class="input-box">
+                <label for="email">EMAIL: </label><input type="text" name="" id="email" required>
+            </div>
+            <div class="input-box">
+                <label for="userName">USERNAME: </label><input type="text" id="userName" required>
+            </div>
+            <div class="input-box">
+                <fieldset>
+                    <legend>GENDER</legend>
+                    <label for="male">male</label> <input type="radio" name="gender" id="male"> <label for="female">female</label><input type="radio" name="gender" id="female"> <label for="other">other</label><input type="radio" name="gender" id="other">
+                </fieldset>
+            </div>
+    
+            <div class="input-box">
+                <label for="age">AGE: </label><input type="number" id="age" max="100" min="1">
+            </div>
+
+            <div class="input-box">
+                <label for="password">PASSWORD: </label><input type="password" id="password" required>
+            </div>
+
+            <button type="submit">REGISTER</button>
+        </form>
+        <h3>ALREADY HAVE AN ACCOUNT? <a href="/login/login.html">LOG IN!</a></h3>
+    </div>
+
+</body>
+</html>
