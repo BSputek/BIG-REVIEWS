@@ -64,7 +64,10 @@
     padding-bottom: 2%;
 }
 
+a:link{
+    text-decoration: none;
+}
+
 a{
     color: white;
-    text-decoration: none;
 }
