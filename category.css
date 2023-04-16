@@ -93,12 +93,12 @@ a:hover{
     color: #12448E;
     font-weight: bold;
     text-align: center;
+    margin: auto;
+    margin-bottom: 40%;
     
 }
 
 *.rating{
-    margin: auto;
-    margin-bottom: 10.5%;
     text-shadow: 2px 2px 1px black;
 }
 

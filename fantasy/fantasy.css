@@ -58,3 +58,11 @@ a{
 a:link{
     text-decoration: none;
 }
+
+.categoryMain>header>h1{
+    font-size: 20px; 
+    text-align: center; 
+    margin-left: 0; 
+    padding: 0; 
+    margin-bottom: 7%;
+}
